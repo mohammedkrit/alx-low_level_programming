@@ -2,12 +2,12 @@
 #include <time.h>
 #include <stdlib.h>
 
-
-
 /**
- * main - that code for condition and random number
- * return : (0)
- */
+* main - Entry point
+*
+* Return: Always 1 (Success)
+*/
+
 int main(void)
 
 {
