@@ -8,11 +8,11 @@
 
 int main(void)
 {
-	char a = '0';
+	int a = 0;
 	
-	while (a < '10')
+	while (a < 10)
 	{
-	putchar(a);
+	printf("%d",a)
 	a++;
 	}
 	putchar('\n');
