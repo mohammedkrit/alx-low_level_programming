@@ -4,9 +4,9 @@
  * mul - multiplies two intgers
  *
  * @a: first input
- * @b: seconde inpute
+ * @b: second inpute
  *
- * Retutn: retutn result
+ * Retutn: retutn results
  */
 
 int mul(int a, int b)
