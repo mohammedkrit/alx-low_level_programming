@@ -4,10 +4,11 @@
  * mul - multiplies two intgers
  *
  * @a: first input
- * @b: second inpute
+ * @b: second input
  *
- * Retutn: retutn results
+ * Retutrn: the result of multiplication  between a and b
  */
+
 
 int mul(int a, int b)
 {
