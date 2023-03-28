@@ -5,6 +5,7 @@
  *              and update the value it points to 98
  *
  * @n: int parameter
+ *
  * Return: Nothing
  */
 
