@@ -1,4 +1,3 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -13,9 +12,10 @@ char *_memset(char *s, char b, unsigned int n)
 {
 	unsigned int c;
 
-	for (n = 0; n > 0; c++, n--)
+	for (c = 0; n > 0; c++)
 	{
 		s[c] = b;
+		n--;
 	}
 
 	return (s);
