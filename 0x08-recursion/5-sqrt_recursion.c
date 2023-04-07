@@ -6,7 +6,7 @@
  * @nm: root sqw
  * Return: int
  */
-int sqw(int n, int nm);
+int sqw(long int n, long int nm);
 int _sqrt_recursion(int n)
 {
 	return (sqw(n, 1));
@@ -18,7 +18,7 @@ int _sqrt_recursion(int n)
  * @nm: sqwr
  * Return: var
  */
-int sqw(int n, int nm)
+int sqw(long int n, long int nm)
 {
 	if (nm * nm == n)
 		return (1);
