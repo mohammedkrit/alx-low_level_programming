@@ -18,14 +18,14 @@ char *_strdup(char *str)
 	for (; str[size] != '\0'; size++)
 	;
 
-	if (m == 0)
+	if (b == 0)
 	{
 		return (NULL);
 	}
 	else
 	{
 		for (; a < size; a++)
-			m[a] = str[a];
+			b[a] = str[a];
 	}
-	return (m);
+	return (b);
 }
