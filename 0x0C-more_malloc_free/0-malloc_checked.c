@@ -4,7 +4,7 @@
 
 /**
  * *malloc_checked - function that allocates memory using malloc.
- * @b: num
+ * @b: num allocated
  * Return: poiner
  */
 
