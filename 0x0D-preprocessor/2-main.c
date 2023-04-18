@@ -8,10 +8,6 @@
 
 int main(void)
 {
-	int n;
-
-	__FILE__  =  n;
-
-	printf("the name of the comp is : %s\n", n);
+	printf("the name of the comp is : %s\n", __FILE__);
 	return (0);
 }
