@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - function tatprint compailer.
+ * main - function tatprint compailer
  * Return: 0
  */
 
