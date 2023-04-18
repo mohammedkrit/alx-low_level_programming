@@ -1,4 +1,3 @@
-#include <stio.h>
 #include "dog.h"
 
 /**
