@@ -2,7 +2,8 @@
 #include "main.h"
 
 /**
- *
+ * _puts_recursion - function print string and new line
+ * @s: pnt
  */
 void _puts_recursion(char *s)
 {
