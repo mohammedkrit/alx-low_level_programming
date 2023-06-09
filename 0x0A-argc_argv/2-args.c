@@ -8,7 +8,9 @@
 
 int main(int argc, char const *argv[])
 {
-	for (int i = 1; i < argc; i++)
+	int i = 0;
+
+	while (argc--)
 	{
 		printf("%s\n", argv[i]);
 	}
