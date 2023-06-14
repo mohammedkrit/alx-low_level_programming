@@ -4,7 +4,7 @@
 
 /**
  * free_grid -  function that frees a 2 dimensional grid previously
- * @**grid: s.all.s
+ * @grid: s.all.s
  * @height: heigth of 2d array
  */
 
