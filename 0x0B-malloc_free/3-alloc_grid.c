@@ -3,7 +3,12 @@
 #include <stdlib.h>
 
 /**
+ * alloc_grid - Allocates memory for a 2D array of integers
+ * @width: Width of the 2D array
+ * @height: Height of the 2D array
  *
+ * Return: Pointer to the newly allocated 2D array
+ *         NULL on failure or invalid inputs
  */
 
 int **alloc_grid(int width, int height)
