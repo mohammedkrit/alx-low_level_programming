@@ -2,7 +2,9 @@
 #include "function_pointers.h"
 
 /**
- *
+ * print_name - functin that print a name 
+ * @name: name of a personne
+ * @f: pointer funtion that print 
  */
 
 void print_name(char *name, void (*f)(char *))
