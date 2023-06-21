@@ -2,10 +2,11 @@
 
 
 /**
- * array_iterator - function that executes a function given as a parameter
+ * array_iterator - fun that executes a function given as a parameter
  * @array: some array
  * @size: size
  * @action: function pointer
+ *
  * Return: void
  */
 
