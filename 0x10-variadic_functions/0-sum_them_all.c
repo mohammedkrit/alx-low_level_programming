@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <sdtlib.h>
-#include <stdarg.h>
 #include "variadic_functions.h"
 
 /**
