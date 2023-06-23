@@ -9,16 +9,19 @@ void print_numbers(const char *separator, const unsigned int n, ...)
 	int i = n;
 
 	va_list args;
-	va_start(args, n);
 
 	if (!n)
+	{
 		printf("\n");
 		return(0);
+	}
+
+	va_start(args, n);
+
 
 	while (i--)
 	{
-		int num = va_arg(args, int);
-		printf("%d%s", num),
+		printf("%d%s", va_arg(args, int)),
 			i ? (separatot ? separator : "") : "\n");
 	}
 
