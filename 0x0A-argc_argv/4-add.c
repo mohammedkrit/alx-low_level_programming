@@ -1,7 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <stdarg.h>
-#include "main.h"
 #include <string.h>
 #include <ctype.h>
 
@@ -12,6 +11,8 @@
 
 int main (int argc, int *argv[])
 {
+	int total;
+
 	if (argc <= 1)
 		printf("0\n");
 	else
@@ -26,7 +27,7 @@ int main (int argc, int *argv[])
 					return (1);
 				}
 			}
-				int total += atoi(argv[i]);
+				total += atoi(argv[i]);
 			}
 		printf("%d",total);
 		return (total);
